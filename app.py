@@ -3,7 +3,7 @@ from PIL import Image
 from ultralytics import YOLO
 
 # Load model
-model = YOLO("best.pt")  # Make sure best.pt is in the same folder
+model = YOLO("best.pt")  
 
 st.title("Otoscopic Image Classifier")
 st.markdown("Upload an otoscopic image to classify it.")
